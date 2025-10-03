@@ -1,0 +1,77 @@
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white mt-16">
+  <div class="container mx-auto px-12 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Logika Sigma</h3>
+        <p class="text-justify text-purple-100 text-sm">
+          Kode, logika, dan cara berpikir programmer sejati. Tempat belajar dan berbagi tutorial pemrograman
+          dengan gaya yang sederhana, jelas, dan mudah dipahami.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li>
+            <i class="fas fa-home mr-2"></i>
+            <a href="/" class="text-purple-100 hover:text-white transition-colors text-sm">Beranda Sigma</a>
+          </li>
+          <li>
+            <i class="fas fa-file-alt mr-2"></i>
+            <a href="/articles" class="text-purple-100 hover:text-white transition-colors text-sm">Artikel Sigma</a>
+          </li>
+          <li>
+            <i class="fas fa-box mr-2"></i>
+            <a href="/products" onclick="alert('Oops, fitur masih disiapkan. Nantikan ya! 🚀'); return false;"
+              class="text-purple-100 hover:text-white transition-colors text-sm">Produk
+              Sigma</a>
+          </li>
+          <li>
+            <i class="fas fa-info-circle mr-2"></i>
+            <a href="/tentang-kami" class="text-purple-100 hover:text-white transition-colors text-sm">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Hubungi Kami</h3>
+        <div class="text-purple-100 text-sm space-y-1">
+          <p><i class="fas fa-envelope mr-2"></i>logikasigma@gmail.com</p>
+          <p><i class="fab fa-instagram mr-2"></i>logikasigma</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="border-t border-white border-opacity-20 mt-8 pt-6 text-center">
+      <p class="text-purple-100 text-sm">&copy; <span id="current-year"></span> Logika Sigma. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
+
+<div id="promo-popup"
+  class="fixed bottom-5 right-5 bg-gradient-to-r from-indigo-500 to-purple-600 text-white p-4 rounded-2xl shadow-lg max-w-xs animate-bounce z-50">
+  <div class="flex justify-between items-start">
+    <p class="text-sm font-medium leading-relaxed">
+      🚀 Butuh Website Profesional?<br>
+      Kami siap membantu pembuatan website bisnis & personal Anda!
+    </p>
+    <button id="close-popup" class="ml-3 text-white hover:text-gray-200 font-bold">&times;</button>
+  </div>
+  <a href="
+    mailto:logikasigma@gmail.com?subject=Permintaan%20Jasa%20Website&body=Halo%2C%20saya%20tertarik%20dengan%20jasa%20pembuatan%20website%20Anda."
+    class="inline-block mt-3 bg-white text-indigo-600 font-semibold px-3 py-1 rounded-lg hover:bg-gray-100 transition">
+    Hubungi Kami
+  </a>
+
+</div>
+
+<script>
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+  document.getElementById("close-popup").onclick = function () {
+    document.getElementById("promo-popup").style.display = "none";
+  };
+</script>

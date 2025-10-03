@@ -1,0 +1,491 @@
+<div class="h-16"></div>
+<!-- Hero Products Section -->
+<section class="relative w-full h-96 mb-7 mt-20">
+    <img src="/img/hero-products.jpg" class="w-full h-full object-cover" alt="Products Cover">
+    <div class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-4">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white drop-shadow-lg opacity-0 animate-fadeIn">
+            Koleksi Produk Premium
+        </h1>
+
+        <div
+            class="flex flex-wrap items-center justify-center text-white/90 mt-6 gap-4 opacity-0 animate-fadeIn delay-200">
+            <span class="flex items-center">
+                <i class="fas fa-box mr-2"></i>
+                500+ Produk
+            </span>
+            <span class="flex items-center">
+                <i class="fas fa-truck mr-2"></i>
+                Gratis Ongkir
+            </span>
+            <span class="flex items-center">
+                <i class="fas fa-shield-alt mr-2"></i>
+                Garansi Resmi
+            </span>
+        </div>
+
+        <div class="flex flex-wrap gap-2 mt-4 opacity-0 animate-fadeIn delay-400">
+            <a href="/category/electronics"
+                class="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs text-white hover:bg-white/30 transition-all">
+                #Electronics
+            </a>
+            <a href="/category/fashion"
+                class="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs text-white hover:bg-white/30 transition-all">
+                #Fashion
+            </a>
+            <a href="/category/bestseller"
+                class="px-3 py-1 bg-white/20 backdrop-blur-sm rounded-full text-xs text-white hover:bg-white/30 transition-all">
+                #BestSeller
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Products Content Section -->
+<section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-12">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+
+            <!-- Main Content - Products Grid -->
+            <div class="lg:col-span-2">
+                <!-- Filter & Sort Bar -->
+                <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+                    <div class="flex flex-wrap items-center justify-between gap-4">
+                        <div class="flex items-center gap-2">
+                            <span class="text-gray-600 font-semibold">Menampilkan:</span>
+                            <span class="text-gray-800">1-12 dari 256 produk</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <label class="text-gray-600 font-semibold">Urutkan:</label>
+                            <select
+                                class="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                                <option>Terbaru</option>
+                                <option>Harga Terendah</option>
+                                <option>Harga Tertinggi</option>
+                                <option>Terpopuler</option>
+                                <option>Rating Tertinggi</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                    <!-- Product Card 1 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product1.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white text-xs font-semibold rounded-full">
+                                -25%
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/wireless-headphone"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Wireless Headphone Premium
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(256)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 1.299.000</span>
+                                <span class="text-sm text-gray-400 line-through">Rp 1.799.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Electronics</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Audio</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/wireless-headphone"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product2.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white text-xs font-semibold rounded-full">
+                                -15%
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/smartwatch-fitness"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Smartwatch Fitness Tracker
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(189)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 2.499.000</span>
+                                <span class="text-sm text-gray-400 line-through">Rp 2.999.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Wearable</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Fitness</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/smartwatch-fitness"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product3.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-red-500 text-white text-xs font-semibold rounded-full">
+                                New
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/laptop-gaming"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Laptop Gaming RGB Pro
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(98)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 15.999.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Gaming</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Laptop</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/laptop-gaming"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product4.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white text-xs font-semibold rounded-full">
+                                -30%
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="fas fa-heart text-red-500"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/mechanical-keyboard"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Mechanical Keyboard RGB
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(342)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 899.000</span>
+                                <span class="text-sm text-gray-400 line-through">Rp 1.299.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Keyboard</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Gaming</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/mechanical-keyboard"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 5 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product5.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white text-xs font-semibold rounded-full">
+                                -20%
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/wireless-mouse"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Wireless Gaming Mouse
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(412)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 599.000</span>
+                                <span class="text-sm text-gray-400 line-through">Rp 749.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Mouse</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Wireless</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/wireless-mouse"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 6 -->
+                    <div
+                        class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                        <div class="relative">
+                            <img src="/img/product6.jpg" alt="Product" class="w-full h-64 object-cover">
+                            <span
+                                class="absolute top-3 right-3 px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full">
+                                Best Seller
+                            </span>
+                            <button
+                                class="absolute top-3 left-3 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition">
+                                <i class="far fa-heart text-gray-700"></i>
+                            </button>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold mb-2">
+                                <a href="/product/webcam-hd"
+                                    class="text-gray-800 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">
+                                    Webcam HD 1080p Streaming
+                                </a>
+                            </h3>
+                            <div class="flex items-center mb-3">
+                                <div class="flex text-yellow-400 text-sm mr-2">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <span class="text-xs text-gray-500">(567)</span>
+                            </div>
+                            <div class="flex items-baseline gap-2 mb-3">
+                                <span class="text-2xl font-bold text-gray-800">Rp 799.000</span>
+                            </div>
+                            <div class="flex gap-2 mb-4">
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Webcam</span>
+                                <span class="px-2 py-1 bg-gray-100 rounded text-xs text-gray-600">#Streaming</span>
+                            </div>
+                            <div class="flex gap-2">
+                                <button
+                                    class="flex-1 px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-medium rounded-lg text-sm hover:shadow-lg transition">
+                                    <i class="fas fa-shopping-cart mr-1"></i>Keranjang
+                                </button>
+                                <a href="/product/webcam-hd"
+                                    class="px-4 py-2 border-2 border-purple-500 text-purple-500 font-medium rounded-lg text-sm hover:bg-purple-50 transition">
+                                    Detail
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <div class="flex justify-center items-center gap-2">
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button
+                            class="px-4 py-2 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white rounded-lg font-semibold">
+                            1
+                        </button>
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            2
+                        </button>
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            3
+                        </button>
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            4
+                        </button>
+                        <span class="px-2 text-gray-600">...</span>
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            20
+                        </button>
+                        <button class="px-4 py-2 border rounded-lg text-gray-600 hover:bg-gray-50 transition">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="lg:col-span-1">
+
+                <!-- Search Box -->
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Cari Produk</h3>
+                    <form action="/products/search" method="GET">
+                        <input type="text" name="q" placeholder="Cari produk..."
+                            class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-purple-500 focus:outline-none">
+                        <button type="submit"
+                            class="w-full mt-3 px-4 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500 text-white font-semibold rounded-lg hover:shadow-lg transition duration-300">
+                            Cari
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Price Filter -->
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Filter Harga</h3>
+                    <div class="space-y-3">
+                        <label class="flex items-center cursor-pointer">
+                            <input type="checkbox" class="w-4 h-4 text-purple-500 rounded focus:ring-purple-500">
+                            <span class="ml-3 text-gray-700 text-sm">Di bawah Rp 500.000</span>
+                        </label>
+                        <label class="flex items-center cursor-pointer">
+                            <input type="checkbox" class="w-4 h-4 text-purple-500 rounded focus:ring-purple-500">
+                            <span class="ml-3 text-gray-700 text-sm">Rp 500.000 - Rp 1.000.000</span>
+                        </label>
+                        <label class="flex items-center cursor-pointer">
+                            <input type="checkbox" class="w-4 h-4 text-purple-500 rounded focus:ring-purple-500">
+                            <span class="ml-3 text-gray-700 text-sm">Rp 1.000.000 - Rp 2.000.000</span>
+                        </label>
+                        <label class="flex items-center cursor-pointer">
+                            <input type="checkbox" class="w-4 h-4 text-purple-500 rounded focus:ring-purple-500">
+                            <span class="ml-3 text-gray-700 text-sm">Di atas Rp 2.000.000</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Kategori</h3>
+                    <div class="flex flex-col space-y-2">
+                        <a href="/category/electronics"
+                            class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 text-sm hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">
+                            Electronics
+                        </a>
+                        <a href="/category/fashion"
+                            class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 text-sm hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">
+                            Fashion
+                        </a>
+                        <a href="/category/home-living"
+                            class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 text-sm hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">
+                            Home & Living
+                        </a>
+                        <a href="/category/sports"
+                            class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 text-sm hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">
+                            Sports & Outdoor
+                        </a>
+                        <a href="/category/books"
+                            class="px-4 py-2 bg-gray-100 rounded-lg text-gray-700 text-sm hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">
+                            Books & Media
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Popular Tags -->
+                <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+                    <h3 class="text-xl font-semibold mb-4 text-gray-800">Tags Populer</h3>
+                    <div class="flex flex-wrap gap-2">
+                        <a href="/tags/bestseller"
+                            class="px-3 py-1 bg-gray-100 rounded-full text-xs text-gray-700 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">Tes1</a>
+                        <a href="/tags/bestseller"
+                            class="px-3 py-1 bg-gray-100 rounded-full text-xs text-gray-700 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">Tes2</a>
+                        <a href="/tags/bestseller"
+                            class="px-3 py-1 bg-gray-100 rounded-full text-xs text-gray-700 hover:bg-gradient-to-r hover:from-purple-500 hover:via-pink-500 hover:to-orange-500 hover:text-white transition-all">Tes3</a>
+                    </div>
+                </div>
